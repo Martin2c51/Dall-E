@@ -24,7 +24,7 @@ const Home = () => {
             setLoading(true);
 
             try{
-                const respone = await fetch('http://localhost:8080/api/v1/post',
+                const respone = await fetch('https://dall-e-nhkq.onrender.com/api/v1/post',
                 {
                     method:'GET',
                     headers: {
